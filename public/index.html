@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+   
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        
+        <div class='container' id='main'>
+            
+            <label id = 'label'>Select Size : 
+                <select id='gameSelector'>
+                    <option id = 'placeholder' value = 'placeholder'>---select size---</option>
+                    <option value = '3'>3x3</option>
+                    <option value = '4'>4x4</option>
+                    <option value = '5'>5x5</option>
+                    <option value = '6'>6x6</option>
+                    <option value = '7'>7x7</option>
+                </select>
+                </label>
+                <!-- <button id="restart" name='restart'>Restart</button> -->
+            <a href = 'Rules.html'>Click here for rules</a>
+            
+              
+            <div class='row'>
+                <div id= 'game'>
+                    <div id = 'headers'>
+                        <h2>Welcome to Tic-Tac-Toe!</h2>
+                        <h2>Player1 starts with the Mark 'X'</h2>
+                        <h2>Player2 starts with the Mark 'O'</h2>
+                        <h2>Select size to start a game</h2>
+                    </div>
+                <div>
+                    <h2 id='summary'></h2>
+                </div>    
+                </div>
+                
+                <button id="restart" name='restart'>Restart</button>
+            </div>
+            
+            
+
+        </div>  <!--end of container-->
+        
+        <script src = "scripts/bundle.js"></script> 
+    </body>
+</html>

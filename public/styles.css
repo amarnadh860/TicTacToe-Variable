@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background:white;
+}
+.container{
+    margin: 50px;
+    background:white;
+    margin: 10px auto;
+    padding:10px;
+    width: 600px;
+    height:600px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color:whitesmoke;
+    background: green;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.row{
+    margin:  auto;
+    width: 500px;
+    height:500px;
+    /* background-color: turquoise; */
+}
+#headers{
+    color: green;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    padding: 20px;
+    margin: 20px auto;
+    font-family:monospace;
+
+}
+#summary{
+    font-size:45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    letter-spacing: -1px;
+    padding:10px;
+    margin: 10px;
+    color:red;
+}
+#size{
+    font-size: 20px;
+    padding:0 0 10px 0;
+    color:white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+    border: none;
+  }
+
+
+#game{
+    margin:  auto;
+    width: 500px;
+    height:500px;
+    /* background-color: peru; */
+}
+#containBoxes{
+    margin:10px auto;
+    padding:10px 10px;
+    width:400px;
+    height:400px;
+    /* background-color: palegreen; */
+}
+
+.size3{
+    width: 128px;
+    height:128px;
+    /* border-radius: 30px; */
+    font-size: 120px;
+}
+.size4{
+    width:95px;
+    height:95px;
+    /* border-radius: 20px; */
+    font-size: 90px;
+} 
+.size5{
+    width:75px;
+    height:75px;
+    /* border-radius: 15px; */
+    font-size:70px;
+} 
+.size6{
+    width:62.5px;
+    height:63px;
+    /* border-radius: 15px; */
+    font-size:60px;
+} 
+.size7{
+    width: 53px;
+    height:53px;
+    /* border-radius: 15px; */
+    font-size: 50px;
+    
+} 
+.size3,.size4,.size5,.size6,.size7{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    background-color:white;
+    border:2px solid grey;
+}
+
+#restart{
+    width:100px;
+    height:40px;
+    background:green;
+    color:white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align:center;
+    margin:10px 10px 10px 120px; 
+    position: relative;
+    right:-80px;
+}
+
+#restart:hover{
+    background: red;
+    
+}
+#instructions{
+    color:black;
+    display:block;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#instructions h2{
+    color:green;
+    font-size: 30px;
+
+}
+#instructions li{
+    font-size: 25px;
+    padding:10px;
+    color: blueviolet;
+}
+
+#instructions a{
+    color:red;
+    text-decoration: none;
+    background: white;
+    border: none;
+    padding:10px 10px 10px 0px;
+    margin:10px;
+}
+
+#instructions #myRule{
+    font-weight: 600;
+}
+
+#gameSelector{
+    color:tomato;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#label{
+    color:green;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    font-size: 25px;
+    margin:0 0 0 30px;
+    letter-spacing: -2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:red;
+    background-color:white;
+    
+}
